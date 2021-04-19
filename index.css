@@ -9,38 +9,35 @@ body{
 padding: 10px;
 background-color: rgb(29, 29, 29);
 color: white;
-
 }
+
 header{
-   
 width: 80vw;
 height: 16vh;
 margin-top: 25px;
 box-shadow: 5px 5px 5px rgb(0,206,209);
 }
-#header-grid{
 
+#header-grid{
 margin-top: 15px;
 display: flex;
 justify-content: space-evenly;
 }
 
 #search{
-
 margin-top: 10px;
 }
 
 #random{
-
 margin-top: 10px;
-
 }
-input{
+
+input {
 height: 25px;
 border-radius: 4px;
 }
 
-.btn{
+.btn {
 background-color:rgb(0,206,209);
 border-radius: 4px;
 width: 100px;
@@ -55,9 +52,9 @@ width: 80px;
 height: 80px;
 box-shadow: 5px 5px 5px rgb(255, 0, 225);
 }
+
 main{
 margin-top: 25px;
-
 }
 
 .foto{
@@ -66,31 +63,31 @@ box-shadow: 5px 5px 5px rgb(255, 123, 0);
 }
 
 #options{ 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
 
 .typeDrink{
-  text-align: center;
-    /* border: 1px solid white; */
-    width: 100px;
-    height:100px;
-    box-shadow: 5px 5px 5px rgb(255, 123, 0);;
+text-align: center;
+width: 100px;
+height:100px;
+box-shadow: 5px 5px 5px rgb(255, 123, 0);;
 }
+
 .typeDrink h3{
 padding-top: 35px;
 }
 
 .stlDrink{
-    font-size: 15px;
+font-size: 15px;
 }
 
-#grid{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 15px;
+#grid {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 15px;
 }
 
 #lista-ingredientes{
@@ -118,7 +115,6 @@ width: 40vw;
 margin: 40px 0px;
 font-style: italic;
 box-shadow: 5px 5px 5px gray;
-    /* (255, 123, 0) */
 }
 
 footer{
