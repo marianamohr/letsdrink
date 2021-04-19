@@ -125,8 +125,15 @@ async function getDrink(name) {
   const drinks = result['drinks'];
   renderDrink(drinks);
 }
+async function randomGetDrink(name) {
+  const result = await fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php').then((res) => res.json());
+  const drinks = result['drinks'];
+  renderDrink(drinks);
+}
 
 const drink = document.getElementById('drink');
 const btnListar = document.getElementById('btn-list');
+const btnRamdom = document.getElementById('btn-ramdom');
 
 btnListar.addEventListener('click', () => getDrink(drink.value));
+btnRamdom.addEventListener('click', randomGetDrink);

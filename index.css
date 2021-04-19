@@ -12,25 +12,57 @@ color: white;
 
 }
 header{
-width: 62vw;
-height: 15vh;
+   
+width: 80vw;
+height: 16vh;
 margin-top: 25px;
 box-shadow: 5px 5px 5px rgb(0,206,209);
 }
+#header-grid{
 
-header h2{
-  margin-bottom: 8px;
-  font-style: italic;
+margin-top: 15px;
+display: flex;
+justify-content: space-evenly;
 }
 
+#search{
+
+margin-top: 10px;
+}
+
+#random{
+
+margin-top: 10px;
+
+}
+input{
+height: 25px;
+border-radius: 4px;
+}
+
+.btn{
+background-color:rgb(0,206,209);
+border-radius: 4px;
+width: 100px;
+height: 25px;
+box-shadow: 5px 5px 5px rgb(255, 0, 225);
+}
+
+#btn-ramdom{
+background-color:rgb(0,206,209);
+border-radius: 100%;
+width: 80px;
+height: 80px;
+box-shadow: 5px 5px 5px rgb(255, 0, 225);
+}
 main{
-    margin-top: 25px;
+margin-top: 25px;
 
 }
 
 .foto{
-    width: 200px;
-    box-shadow: 5px 5px 5px rgb(255, 123, 0);
+width: 200px;
+box-shadow: 5px 5px 5px rgb(255, 123, 0);
 }
 
 #options{ 
